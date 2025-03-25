@@ -55,12 +55,12 @@ class _CountrySearchListWidgetState extends State<CountrySearchListWidget> {
         InputDecoration(
           labelStyle: TextStyle(
               color: Colors.black, fontSize: 12, fontWeight: FontWeight.w400),
-          border:
-              OutlineInputBorder(borderSide: BorderSide(color: Colors.black)),
-          focusedBorder:
-              OutlineInputBorder(borderSide: BorderSide(color: Colors.black)),
-          enabledBorder:
-              OutlineInputBorder(borderSide: BorderSide(color: Colors.black)),
+          border: OutlineInputBorder(
+              borderSide: BorderSide(color: Colors.black.withOpacity(0.09))),
+          focusedBorder: OutlineInputBorder(
+              borderSide: BorderSide(color: Colors.black.withOpacity(0.09))),
+          enabledBorder: OutlineInputBorder(
+              borderSide: BorderSide(color: Colors.black.withOpacity(0.09))),
           isDense: true,
           contentPadding: EdgeInsets.symmetric(horizontal: 10, vertical: 10),
           labelText: 'Search by country name or dial code',

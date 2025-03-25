@@ -123,6 +123,7 @@ class SelectorButton extends StatelessWidget {
       context: inheritedContext,
       barrierDismissible: true,
       builder: (BuildContext context) => AlertDialog(
+        backgroundColor: Colors.white,
         contentPadding: EdgeInsets.symmetric(horizontal: 5),
         content: Directionality(
           textDirection: Directionality.of(inheritedContext),

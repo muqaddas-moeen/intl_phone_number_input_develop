@@ -291,6 +291,11 @@ class _InputWidgetState extends State<InternationalPhoneNumberInput> {
   InputDecoration getInputDecoration(InputDecoration? decoration) {
     InputDecoration value = decoration ??
         InputDecoration(
+          errorStyle: TextStyle(
+            color: Colors.red,
+            fontSize: 12,
+            fontWeight: FontWeight.w400,
+          ),
           isDense: true,
           focusedBorder: widget.focusBorder ??
               OutlineInputBorder(
